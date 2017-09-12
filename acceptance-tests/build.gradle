@@ -1,4 +1,4 @@
-description = "Acceptance Tests for the BDD cycle (objective: have conversaions and demonstrate requirements)"
+description = "Acceptance Tests for the BDD cycle (objective: have conversations and demonstrate requirements)"
 
 test {
 
