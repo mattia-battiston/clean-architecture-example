@@ -1,6 +1,6 @@
-package com.clean.example.endtoend.broadbandAccessDevice.getGetails;
+package com.clean.example.endtoend.broadbandAccessDevice.getDetails;
 
-import com.clean.example.businessrequirements.broadbandAccessDevice.getGetails.GetBroadbandAccessDeviceDetailsAcceptanceTest;
+import com.clean.example.businessrequirements.broadbandAccessDevice.getDetails.GetBroadbandAccessDeviceDetailsAcceptanceTest;
 import com.clean.example.core.entity.DeviceType;
 import com.clean.example.core.entity.Exchange;
 import com.clean.example.dataproviders.database.broadbandaccessdevice.BroadbandAccessDeviceDatabaseDataProvider;

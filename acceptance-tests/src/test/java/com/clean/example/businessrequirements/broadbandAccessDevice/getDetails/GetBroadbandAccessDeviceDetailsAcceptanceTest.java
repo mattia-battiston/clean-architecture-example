@@ -1,4 +1,4 @@
-package com.clean.example.businessrequirements.broadbandAccessDevice.getGetails;
+package com.clean.example.businessrequirements.broadbandAccessDevice.getDetails;
 
 import com.clean.example.core.entity.BroadbandAccessDevice;
 import com.clean.example.core.entity.DeviceType;
@@ -6,7 +6,7 @@ import com.clean.example.core.entity.Exchange;
 import com.clean.example.core.usecase.broadbandaccessdevice.getdetails.DeviceNotFoundException;
 import com.clean.example.core.usecase.broadbandaccessdevice.getdetails.GetBroadbandAccessDeviceDetailsUseCase;
 import com.clean.example.core.usecase.broadbandaccessdevice.getdetails.GetDeviceDetails;
-import com.clean.example.endtoend.broadbandAccessDevice.getGetails.GetBroadbandAccessDeviceDetailsEndToEndTest;
+import com.clean.example.endtoend.broadbandAccessDevice.getDetails.GetBroadbandAccessDeviceDetailsEndToEndTest;
 import com.clean.example.yatspec.YatspecTest;
 import com.googlecode.yatspec.junit.LinkingNote;
 import org.junit.Test;
