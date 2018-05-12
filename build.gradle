@@ -75,5 +75,5 @@ configure(allprojects - project(":application")) {
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = "2.11"
+    gradleVersion = "4.7"
 }
