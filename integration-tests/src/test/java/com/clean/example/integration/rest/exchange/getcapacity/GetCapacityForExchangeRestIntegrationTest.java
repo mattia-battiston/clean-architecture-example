@@ -18,6 +18,8 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 
+import org.json.JSONException;
+
 public class GetCapacityForExchangeRestIntegrationTest extends YatspecTest {
 
     private static final String EXCHANGE_CODE = "exch1";
@@ -73,7 +75,7 @@ public class GetCapacityForExchangeRestIntegrationTest extends YatspecTest {
         log("Response: Status Code", responseStatusCode);
     }
 
-    private void thenTheCapacityIsReturned() {
+    private void thenTheCapacityIsReturned() throws JSONException {
         log("Response: Content", formatJson(responseContent));
         assertThat(responseStatusCode).isEqualTo(200);
 

@@ -20,6 +20,8 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 
+import org.json.JSONException;
+
 public class GetBroadbandAccessDeviceRestIntegrationTests extends YatspecTest {
 
     private static final String EXCHANGE_CODE = "exchange";
@@ -79,7 +81,7 @@ public class GetBroadbandAccessDeviceRestIntegrationTests extends YatspecTest {
         log("Response: Status Code", responseStatusCode);
     }
 
-    private void thenTheDetailsAreReturned() {
+    private void thenTheDetailsAreReturned() throws JSONException {
         log("Response: Content", formatJson(responseContent));
         assertThat(responseStatusCode).isEqualTo(200);
 
