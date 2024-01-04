@@ -10,6 +10,7 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan(basePackages = "com.clean.example.configuration")
 public class Application {
 
+    int variable = 0;
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
